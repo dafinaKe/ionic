@@ -8,5 +8,7 @@ import { Component } from '@angular/core';
 export class Tab1Page {
 
   constructor() {}
-
+  onClickSayHello(vleraTekstit:string){
+    alert("Hello people:" +vleraTekstit);
+  }
 }
